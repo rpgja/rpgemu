@@ -1,0 +1,24 @@
+{
+	"name": "rpgemu",
+	"version": "0.0.0",
+	"author": "rpgja",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rpgja/rpgemu.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rpgja/rpgemu/issues"
+	},
+	"description": "Offline emulator for RPGEN.",
+	"homepage": "https://github.com/rpgja/rpgemu#readme",
+	"keywords": ["rpgen"],
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"emulator:dev": "bun run --cwd packages/emulator dev"
+	},
+	"workspaces": ["packages/*"],
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3"
+	}
+}

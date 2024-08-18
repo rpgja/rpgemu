@@ -1,0 +1,29 @@
+{
+  "author": "rpgja",
+  "bugs": {
+    "url": "https://github.com/rpgja/rpgemu/issues"
+  },
+  "dependencies": {
+    "next": "^14.2.5"
+  },
+  "description": "Offline emulator for RPGEN.",
+  "devDependencies": {
+    "@types/node": "^22.4.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  },
+  "homepage": "https://github.com/rpgja/rpgemu#readme",
+  "keywords": ["rpgen"],
+  "license": "MIT",
+  "name": "emulator",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpgja/rpgemu.git"
+  },
+  "scripts": {
+    "dev": "next dev --turbo"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
